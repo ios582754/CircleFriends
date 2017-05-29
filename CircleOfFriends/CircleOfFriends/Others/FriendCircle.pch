@@ -1,0 +1,38 @@
+//
+//  FriendCircle.pch
+//  CircleOfFriends
+//
+//  Created by apple on 17/5/29.
+//  Copyright © 2017年 pxymac. All rights reserved.
+//
+
+#ifndef FriendCircle_h
+#define FriendCircle_h
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import "AppApiConstants.h"
+#import "GlobalDefines.h"
+#import "HGNetworkingRequest.h"
+#import "FriendsTools.h"
+//--------Category---------
+
+#import "UIImage+Extension.h"
+#import "UIView+Extension.h"
+//#import "GlobalDefines.h"
+#import "UIImageView+Extension.h"
+#import "NSString+XHMD5.h"
+#import "NSString+Extensions.h"
+#import "NSDate+Extension.h"
+
+#import "MBProgressHUD+KR.h"
+#import "MJExtension.h"
+#import "NSObject+MJExtension.h"
+#import "UIBarButtonItem+Extension.h"
+//--------Libs-----------
+#import "MJExtension.h"
+#import "MJRefresh.h"
+
+
+#define WeakSelf __weak typeof(self) weakSelf = self;
+
+#endif /* FriendCircle_h */
